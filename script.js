@@ -23,9 +23,9 @@ function displayUsers(data) {
         const genderImage = document.createElement('img');
         genderImage.alt = user.gender;
         if (user.gender === 'male') {
-            genderImage.src = '../user list/male.jpg';
+            genderImage.src = 'male.jpg';
         } else if (user.gender === 'female') {
-            genderImage.src = '../user list/female.jpeg';
+            genderImage.src = 'female.jpeg';
         }
         const nameParagraph = document.createElement('p');
         nameParagraph.innerHTML = `
